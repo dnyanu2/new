@@ -3,11 +3,11 @@ pipeline {
                 label "built-in"
            }
          stages {
-                 stage ('deploy-index') {
+                 stage ('23q1') {
                             steps{
                                        
-                                      sh "cp -r index.html /var/www/html/"
-                                      sh "chmod -R 777 /var/www/html"
+                                      echo "this is 23q1 branch"
+                                      
                  }
          }
 }
